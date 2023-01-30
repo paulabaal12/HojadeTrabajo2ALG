@@ -6,13 +6,13 @@ public class Principal {
         BufferedReader reader;
         String line;
         int noOfLines=0;
-		reader = new BufferedReader(new FileReader("Text.txt"));
+		reader = new BufferedReader(new FileReader("datos.txt"));
         StackHandmade<Integer> calc = new StackHandmade<Integer>();
         PostfixCalculator postCalc= new PostfixCalculator();
         while (reader.readLine() != null) {
             noOfLines++;
         }
-        reader = new BufferedReader(new FileReader("Text.txt"));
+        reader = new BufferedReader(new FileReader("datos.txt"));
         for(int l=0; l<noOfLines;l++){
             line = reader.readLine();
             for(int i=0; i<line.length(); i++){
