@@ -3,6 +3,10 @@ import java.io.FileNotFoundException;  // Import this class to handle errors
 import java.util.Scanner; // Import the Scanner class to read text files
 
 public class ReadFileExample {
+  
+  /** 
+   * @param args
+   */
   public static void main(String[] args) {
 	  System.out.println("Ingrese la ruta del archivo ej C:\\ejemplos\\example1.txt");
 	  Scanner in = new Scanner(System.in);

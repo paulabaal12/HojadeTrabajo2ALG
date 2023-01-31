@@ -1,9 +1,6 @@
-/**
- * 
- */
 
 /**
- * @author MAAG
+ * @author Paula Barillas, Ana paula Navas, Nicolle Gordillo 
  *
  */
 public interface IStack<T> {

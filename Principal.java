@@ -1,7 +1,15 @@
 import java.io.BufferedReader;
 import java.io.FileReader;
-
+/**
+ * @author Paula Barillas, Ana paula Navas, Nicolle Gordillo 
+ *
+ */
 public class Principal {
+    
+    /** 
+     * @param args
+     * @throws Exception
+     */
     public static void main(String[] args) throws Exception {
         BufferedReader reader;
         String line;

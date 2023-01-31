@@ -1,9 +1,7 @@
-/**
- * 
- */
+
 
 /**
- * @author MAAG
+ * @author Paula Barillas, Ana paula Navas, Nicolle Gordillo 
  *
  */
 public class Node<T> {
@@ -16,7 +14,8 @@ public class Node<T> {
 	/**
 	 * @return the value
 	 */
-	public T getValue() {
+	
+	public T getValue() { 
 		return value;
 	}
 	/**

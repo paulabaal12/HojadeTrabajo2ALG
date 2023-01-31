@@ -1,9 +1,5 @@
 /**
- * 
- */
-
-/**
- * @author moises.alonso
+ * @author Paula Barillas, Ana paula Navas, Nicolle Gordillo 
  *
  */
 public class StackHandmade<T> implements IStack<T> {
@@ -16,16 +12,28 @@ public class StackHandmade<T> implements IStack<T> {
 		count = 0;
 	}
 	
+	
+	/** 
+	 * @return int
+	 */
 	@Override
 	public int count() {
 		return count;
 	}
 
+	
+	/** 
+	 * @return boolean
+	 */
 	@Override
 	public boolean isEmpty() {
 		return count() == 0;
 	}
 
+	
+	/** 
+	 * @param value
+	 */
 	@Override
 	public void push(T value) {
 		Node<T> newNode = new Node<T>(value);
@@ -40,6 +48,10 @@ public class StackHandmade<T> implements IStack<T> {
 		count++;
 	}
 
+	
+	/** 
+	 * @return T
+	 */
 	@Override
 	public T pull() {
 		
@@ -55,6 +67,10 @@ public class StackHandmade<T> implements IStack<T> {
 		
 	}
 
+	
+	/** 
+	 * @return T
+	 */
 	@Override
 	public T peek() {
 		
